@@ -1,0 +1,118 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1A1F38;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  
+  /* Navbar */
+  .barra-de-navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1A1F38;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFD700;
+  }
+  
+  .navbar .logo span {
+    color: #FFF;
+  }
+  
+  .navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+  }
+  
+  .navbar .search-icon img {
+    width: 20px;
+    cursor: pointer;
+  }
+  
+  /* Newsletter Section */
+  .newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+  }
+  
+  .newsletter-text {
+    max-width: 50%;
+  }
+  
+  .newsletter-text h1 {
+    font-size: 36px;
+    color: #FFD700;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-text p {
+    margin-bottom: 30px;
+    color: #CFCFCF;
+  }
+  
+  .newsletter-form input {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .newsletter-form button {
+    background-color: #FFD700;
+    color: #1A1F38;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .newsletter-image {
+    position: relative;
+  }
+  
+  .newsletter-image .user-photo {
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .newsletter-image::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: #FFD700;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .conteudo-texto
